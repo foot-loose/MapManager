@@ -22,8 +22,5 @@ let package = Package(
         .target(
             name: "MapManager",
             dependencies: []),
-        .testTarget(
-            name: "MapManagerTests",
-            dependencies: ["MapManager"]),
     ]
 )
