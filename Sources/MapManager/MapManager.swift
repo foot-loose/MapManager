@@ -28,6 +28,10 @@ public class MapInfo: ObservableObject {
     ]
      */
 
+    public init(){
+        
+    }
+    
     public func addMarker(name: String,latitude: Double,longitude: Double){
         data.append(Spot(name: name, latitude: latitude, longitude: longitude))
     }
